@@ -1,7 +1,7 @@
 export function preloader(isFetching) {
   const preloader = document.createElement("div");
   const img = new Image();
-  img.src = "../assets/preloader.svg";
+  img.src = "./testTask2/assets/preloader.svg";
   preloader.appendChild(img);
   img.alt = "preloader";
   preloader.id = "preloader";
