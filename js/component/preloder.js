@@ -3,6 +3,7 @@ export function preloader(isFetching) {
   const img = new Image();
   img.src = "../assets/preloader.svg";
   preloader.appendChild(img);
+  img.alt = "preloader";
   preloader.id = "preloader";
   if (isFetching) {
     document.querySelector(".content").appendChild(preloader);
